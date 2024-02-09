@@ -30,7 +30,8 @@ class Label:
         Creates one (or more) ZPL2 labels.
 
         *height* and *width* are given in millimeters
-        *dpmm* refers to dots per millimeter (e.g. 12 for 300dpi)
+        *dpmm* refers to dots per millimeter (e.g. 12 for 300dpi). Must be value
+        of 6, 8, 12, or 24 to work with Labelary.
         """
         self.height = height
         self.width = width
